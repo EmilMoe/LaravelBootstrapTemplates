@@ -1,5 +1,5 @@
 {
-    "name": "emilmoe/laravelbootstraptemplates",
+    "name": "emilmoe/laravel-bootstrap-templates",
     "description": "Different templates made for Bootstrap and Laravel, ready to use",
     "type": "library",
     "license": "MIT",
@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "EmilMoe\\LaravelBootstrapTemplates\\ServiceProvider"
+                "EmilMoe\\LaravelBootstrapTemplates\\TemplateServiceProvider"
             ]
         }
     }
