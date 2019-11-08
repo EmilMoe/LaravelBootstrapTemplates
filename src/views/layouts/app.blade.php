@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="{{ $class['html'] ?? '' }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-100">
     <head profile="http://www.w3.org/2005/10/profile">
         <title>{{ $pagetitle ?? config('app.name', 'Laravel') }}</title>
 
@@ -13,18 +13,14 @@
 
         @yield('head')
     </head>
-    <body class="{{ $class['body'] ?? '' }}">
-        @if(isset($vue))
-            <div id="app" class="h-100">
-                @include('EmilMoe\Templates::parts.navbar')
+    <body class="h-100">
+        <div id="app" class="h-100">
+            @include('EmilMoe\Templates::parts.navbar')
 
-                <main class="py-4">
-                    @yield('content')
-                </main>
-            </div>
-        @else
-            @yield('content')
-        @endif
+            <main class="py-4">
+                @yield('content')
+            </main>
+        </div>
 
         @if(env('APP_ENV') !== 'local')
             <script src="//cdn.polyfill.io/v2/polyfill.min.js"></script>
