@@ -1,0 +1,19 @@
+{
+    "name": "emil/laravel-bootstrap-templates",
+    "description": "Different templates made for Bootstrap and Laravel, ready to use",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emil Moe",
+            "email": "emil@moegroup.dk"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EmilMoe\\LaravelBootstrapTemplates\\ServiceProvider"
+            ]
+        },
+    }
+}
