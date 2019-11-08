@@ -9,6 +9,11 @@
             "email": "emil@moegroup.dk"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "EmilMoe\\LaravelBootstrapTemplates\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
