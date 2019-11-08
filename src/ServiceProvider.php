@@ -1,6 +1,6 @@
 <?php
 
-namespace EmiLMoe\LaravelBootstrapTemplates;
+namespace EmilMoe\LaravelBootstrapTemplates;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
