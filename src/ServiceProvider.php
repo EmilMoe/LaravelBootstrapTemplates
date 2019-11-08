@@ -23,6 +23,6 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function register()
     {
-        view()->addNamespace('EmilMoe\LaravelBootstrapTemplates', __DIR__ .'/views');
+        view()->addNamespace('EmilMoe\Templates', __DIR__ .'/views');
     }
 }

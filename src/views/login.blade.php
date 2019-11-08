@@ -6,7 +6,7 @@
     ['logo' => url] can be used to insert an application logo.
 
     _vertical-input-group.scss must be loaded for prettier input fields:
-    @import 'vendor/emil/laravel-bootstrap-templates/src/scss/vertical-input-group';
+    @import 'vendor/emilmoe/laravel-bootstrap-templates/src/scss/vertical-input-group';
 --}}
 
 <div class="container-fluid h-100">
