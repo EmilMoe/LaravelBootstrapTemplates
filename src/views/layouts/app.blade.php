@@ -20,7 +20,7 @@
             @include('EmilMoe\Templates::parts.navbar')
 
             <main class="py-4">
-                @yield('content')
+                @yield('container')
             </main>
         </div>
 
