@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-100">
     <head profile="http://www.w3.org/2005/10/profile">
-        <title>{{ $pagetitle ?? config('app.name', 'Laravel') }}</title>
+        <title>@yield('title', {{ config('app.name', 'Laravel') }})</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">

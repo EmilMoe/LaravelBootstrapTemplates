@@ -32,6 +32,12 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            @yield('profile-menu')
+
+                            @hasSection('profile-menu')
+                                <div class="dropdown-divider"></div>
+                            @endif
+
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
