@@ -24,6 +24,8 @@
             </main>
         </div>
 
+        @yield('footer')
+
         @if(env('APP_ENV') !== 'local')
             <script src="//cdn.polyfill.io/v2/polyfill.min.js"></script>
         @endif
